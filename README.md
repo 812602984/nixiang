@@ -178,7 +178,7 @@ python3 scanner.py ./packages/ --out reports --json  # 同时导出原始 JSON
 
 ## 文档
 
-- [`docs/代码详解.md`](docs/代码详解.md) —— 13 章，逐文件讲解：AXML 逐段拆解、exported 三态、Mach-O 与 cryptid、七章报告为什么这样设计，以及开发过程中修掉的 4 个真实 bug
+- [`docs/代码详解.md`](docs/代码详解.md) —— 12 章，从整体流程到逐文件拆解：AXML 逐段拆解、exported 三态、Mach-O 与 cryptid、七章报告的设计意图，以及第十一章「一条命令的完整旅程」——把 `scanner.py` → `ipa_parser.py` → `report.py` 的函数级调用顺序和落盘过程完整走一遍
 
 ---
 
