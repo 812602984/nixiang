@@ -66,3 +66,29 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+
+# ---- privacy-scanner 追加规则 ----
+
+# ---- 扫描产物：不进版本库 ----
+# out/ 是运行结果（报告、CSV、JSON），属于产物不是源码
+out/
+reports/
+
+# ---- 打包产物 ----
+*.zip
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ---- 系统与编辑器 ----
+.DS_Store
+.vscode/
+.idea/
+*.swp
